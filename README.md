@@ -3,7 +3,7 @@
 Headless CMS was developed using following stack of technologies:
   - .NET Core 3.1
   - ASP.NET Core Web API
-  - Docker (for building app and MS SQL database image)
+  - Docker (for containerization of Web API app and MS SQL database)
   - MS SQL database
 
 Additionals nuget packages:
