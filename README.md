@@ -34,9 +34,9 @@ Steps:
 
   ![image](https://user-images.githubusercontent.com/30402551/135578243-5bdf03ec-152f-45aa-965b-24ca2b65e6d0.png)
 
-  5. POST,PUT and DELETE operations are secured with API key as per requirement. Click "Authorize" button and paste following API key "b53cae95-ac71-44c9-bbf1-9311427f4c10".
+  5. POST,PUT and DELETE operations are secured with API key as per requirement. Click "Authorize" button and paste following API key "b53cae95-ac71-44c9-bbf1-9311427f4c10" if you want to test these endpoints too.
   6. All operations, validation rules, status codes and etc are fully documented in swagger document.
-  > Attention!!!. First call of any endpoint might take a bit longer time ~ 10 seconds, because entity framework should create database and migrate schema.
+  > Attention!!! First call of any endpoint might take a bit longer time ~ 10 seconds, because entity framework should create database and migrate schema.
 
 # How to run integration tests
 Preconditions:
