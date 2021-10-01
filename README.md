@@ -43,7 +43,7 @@ Preconditions:
   - Install Visual studio (preferable 2019)
 
 Steps:
-  1. Downloand or clone headless cms https://github.com/Haletski/HeadlessCms.git
+  1. Download or clone [HeadlessCms Project](https://github.com/Haletski/HeadlessCms.git)
   2. Open solution of HeadlessCMS in Visual Studio
-  3. Press right click on Articles.WebAPI.Integration.Tests and chose "Run Tests". All tests should successfully passed.
+  3. Press right click on Articles.WebAPI.Integration.Tests project and choose "Run Tests" from context menu. All tests should be successfully passed.
   ![image](https://user-images.githubusercontent.com/30402551/135579251-875d188e-836e-420b-9715-cb1839c91486.png)
