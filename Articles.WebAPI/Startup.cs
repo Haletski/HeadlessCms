@@ -79,12 +79,6 @@ namespace Articles.WebAPI
                 });
 
             }, ServiceLifetime.Scoped); // Share context between request pipeline
-
-            services.AddAuthentication(options =>
-            {
-                options.DefaultAuthenticateScheme = "Api Key";
-                options.DefaultChallengeScheme = "Api Key";
-            });
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
@@ -102,9 +96,6 @@ namespace Articles.WebAPI
             app.UseMiddleware<ErrorHandlerMiddleware>();
 
             app.UseRouting();
-
-            app.UseAuthentication();
-            app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
