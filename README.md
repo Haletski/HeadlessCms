@@ -20,7 +20,7 @@ Additionals nuget packages:
 
 # How to run application
 Preconditions:
-  - Install docker and swith to linux containers
+  - Install docker and switch to linux containers
   - Install Visual studio (preferable 2019)
 
 Steps: 
