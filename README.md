@@ -7,7 +7,7 @@ Headless CMS was developed using following stack of technologies:
   - MS SQL database
 
 Additionals nuget packages:
-  - Automapper - (for mapping entities, resources and dtos)
+  - Automapper (for mapping entities, resources and dtos)
   - FluentValidation (for model validation)
   - Mediatr (CQRS pattern)
   - Swashbuckle (For describing RESTfull operations)
