@@ -11,12 +11,12 @@ Additionals nuget packages:
   - FluentValidation (for model validation)
   - Mediatr (CQRS pattern)
   - Swashbuckle (For describing RESTfull operations)
-  - EntityyFrameworkCore
+  - EntityFrameworkCore
   - FluentAssertions (Test project)
   - TestHost (for integration testing)
   - InMemory (extension for ef db context)
   - NUnit
-  - etc
+  - etc.
 
 # How to run application
 Preconditions:
@@ -25,7 +25,7 @@ Preconditions:
 
 Steps: 
   1. Download or clone [HeadlessCms Project](https://github.com/Haletski/HeadlessCms.git)
-  2. Navigate to HeadlessCms/Articles.WebAPI folder open any comand line terminal and run "docker compose up". It might take up to 10 minutes to download and build application and sql images.
+  2. Navigate to HeadlessCms/Articles.WebAPI folder open any comand line terminal and run "docker compose up" command. It might take up to 10 minutes to download and build application and sql images.
   3. When you see such logs in the terminal than you will be able to open and use application.
 
   ![image](https://user-images.githubusercontent.com/30402551/135578148-4aca3432-57ad-48f0-8878-0471c9c9af4f.png)
